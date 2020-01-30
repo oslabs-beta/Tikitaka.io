@@ -1,0 +1,52 @@
+// $background-grey: rgba(65, 0, 206, 0.57);
+// $button-ghostwhite: green;
+
+html, body {
+    height: 100%;
+}
+
+// button {
+//     height: 2.5rem;
+//     border: none;
+//     font-size: 1.3rem;
+//     border-bottom: 4px solid #ccc;
+//     margin-left: 0.5rem;
+//     cursor: pointer;
+//     color: $button-ghostwhite
+// }
+.root {
+    display: flex;
+    height: 100%;
+}
+#main-display {
+    background: rgba(203,203,210,.15);
+    position: relative;
+    float: right;
+    width: calc(100% - 170px);
+}
+
+.wrapper {
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+// .is-completed {
+//     text-decoration: line-through;
+//     color: brown;
+// }
+
+// .tdl-input {
+//     padding: 0.5rem;
+//     font-size:1.3rem;
+//     margin: 1rem 0;
+// }
+
+// .tdl-task {
+//     padding: .5rem;
+// }
+
+// .navbar-expand .navbar-nav {
+//     display: flex;
+//     flex-direction: column;
+// }
